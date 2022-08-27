@@ -1,0 +1,236 @@
+body {
+    margin: 0
+}
+
+#fb-mob {
+    background-color: #fff;
+    min-height: 635px;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px
+}
+
+header {
+    background: #3b5998;
+    box-sizing: border-box;
+    height: 38px;
+    margin: 0 auto;
+    padding: 24px;
+    position: relative;
+    width: 100%;
+    z-index: 12;
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+}
+
+header img {
+    width: 130px;
+    display: block;
+    text-align: center;
+}
+
+
+main {
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom: 1px solid;
+    border-color: #e9e9e9;
+    min-height: 635px;
+    position: relative;
+    z-index: 0;
+    max-width: 450px;
+    margin: auto;
+}
+
+main div:first-child {
+    margin: 10px auto;
+    text-align: center;
+}
+
+main div:first-child div {
+    margin-top: 30px;
+    color: #90949c;
+    font-size: 15px;
+}
+
+main div:first-child img {
+    width: 75px;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 0px 16px 1px
+}
+
+form .input-wrapper {
+    position: relative
+}
+
+form .inputs {
+    border-radius: 4px;
+    overflow: hidden
+}
+
+form input {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #f5f6f7;
+    border: 1px solid #e5e5e5;
+    padding: 12px;
+    margin-top: 7px;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    margin-top: 12px;
+    border: none;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    height: 36px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1877f2;
+    box-shadow: 0 1px 0 #00000024, inset 0 -1px 1px 0 #00000008;
+
+}
+
+form button,
+main .line {
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap
+}
+
+main .line {
+    overflow: hidden;
+    max-width:80%;
+    margin: 15px auto
+    
+}
+
+main .line span {
+    display: inline-block;
+    position: relative;
+    color: #4b4f56;
+    max-width: 416px
+}
+
+main .line span:after {
+    left: 100%;
+    margin-left: 15px
+}
+
+main .line span:after,
+main .line span:before {
+    background: #ccd0d5;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 9999px
+}
+
+main .line span:before {
+    margin-right: 15px;
+    right: 100%
+}
+
+main .signup-btn {
+    padding: 12px 0;
+    text-align: center
+}
+
+main .signup-btn button {
+    height: 36px;
+    background: #00a400;
+    box-shadow: none;
+    color: #fff;
+    text-shadow: 0 -1px 0 #00000059;
+    line-height: 27px;
+    padding: 3px 16px 2px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 700;
+    overflow: hidden;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.forgetpass a {
+    color: #7596c8;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.links-list {
+    display: flex;
+    display: -webkit-flex;
+    padding: 6px;
+    margin: 0 auto;
+    max-width: 416px
+}
+
+.links-list ul {
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    text-align: center
+}
+
+.links-list ul li {
+    list-style: none
+}
+
+.links-list ul li a {
+    color: #576b95;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.links-list ul li div {
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    color: #3578e5;
+    display: block;
+    font-size: large;
+    height: 18px;
+    line-height: 17px;
+    width: 18px;
+    margin: 0 auto
+}
+
+.center,
+.links-list ul li div {
+    text-align: center;
+    color: gray
+}
+
+.alert {
+    padding: 5px 8px;
+    background-color: #fffbe2;
+    color: #7f7212;
+    border-color: #e2c822 !important;
+    border-bottom: 1px solid;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    margin: auto;
+    text-align: center;
+}
